@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: ecommerce
+    database: dbt-greenweez-506212
+    schema: dbt_materialization_demo
+    tables:
+      - name: raw_orders
